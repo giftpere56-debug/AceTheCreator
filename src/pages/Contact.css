@@ -1,0 +1,94 @@
+
+.contact-page {
+  padding: 75px 5%;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.contact-heading p {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.contact-heading h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 5vw, 58px);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contact-heading span {
+  color: #777;
+  font-size: 14px;
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+}
+
+.contact-details h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.contact-details p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  outline: none;
+  background: white;
+  font-size: 13px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #171717;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background: #171717;
+  color: white;
+  padding: 17px;
+  border: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.form-feedback {
+  font-size: 13px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
